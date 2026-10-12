@@ -1,0 +1,14 @@
+<!doctype html>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Beautitia</title>
+<script>
+  const ua = navigator.userAgent;
+  const IOS = "https://apps.apple.com/app/id6779749768";
+  const AND = "https://play.google.com/store/apps/details?id=YOUR.PACKAGE.NAME";
+  if (/iPhone|iPad|iPod/i.test(ua)) location.replace(IOS);
+  else if (/Android/i.test(ua)) location.replace(AND);
+</script>
+<p style="font-family:sans-serif;text-align:center;margin-top:40vh">
+  <a href="https://apps.apple.com/app/id6779749768">App Store</a> ·
+  <a href="https://play.google.com/store/apps/details?id=agency.dotproduct.beautitia">Google Play</a>
+</p>
